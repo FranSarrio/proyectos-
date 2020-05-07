@@ -22,19 +22,20 @@ function calcularVuelto (precio,conCuantoPaga,listaDeBilletes) {
 	}
 
 	while (resto !== '0') {
+		function calcularresto ()
 
-		for (i=0; i<listaDeBilletes.length; i++){
+			for (i=0; i<listaDeBilletes.length; i++){
 		
-			if(listaDeBilletes[i] > resto) {
-				nuevoBillete= listaDeBilletes [i-1]
-				billetesADevolver.push(nuevoBillete)
+				if(listaDeBilletes[i] > resto) {
+					nuevoBillete= listaDeBilletes [i-1]
+					billetesADevolver.push(nuevoBillete)
 				
+				}
 			}
-		}
 		
-		resto=resto - nuevoBillete
-	}
+			resto=resto - nuevoBillete
+		}
 
-	return billetesADevolver
+		return billetesADevolver
 
 }
