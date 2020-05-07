@@ -21,7 +21,7 @@ function calcularVuelto (precio,conCuantoPaga,listaDeBilletes) {
 		}
 	}
 
-	while (resto !== '0') {
+	while (resto !== 0) {
 		function calcularresto ()
 
 			for (i=0; i<listaDeBilletes.length; i++){
