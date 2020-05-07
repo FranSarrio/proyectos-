@@ -28,9 +28,11 @@ function calcularVuelto (precio,conCuantoPaga,listaDeBilletes) {
 			if(listaDeBilletes[i] > resto) {
 				nuevoBillete= listaDeBilletes [i-1]
 				billetesADevolver.push(nuevoBillete)
-				resto=resto - nuevoBillete
+				
 			}
-		}	
+		}
+		
+		resto=resto - nuevoBillete
 	}
 
 	return billetesADevolver
