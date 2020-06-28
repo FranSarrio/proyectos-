@@ -1,4 +1,4 @@
-  const flechaIzquierda= document.querySelector('.left-row')
+  	const flechaIzquierda= document.querySelector('.left-row')
 	const flechaDerecha= document.querySelector('.right-row')
 	const flechaArriba= document.querySelector('.up-row')
 	const flechaAbajo= document.querySelector('.bottom-row')
@@ -10,7 +10,7 @@
 	const circuloPrincipal= document.querySelector('.principal-circle')
 
 	function moveLeft () {
-  	let principalCircleStyle= window.getComputedStyle(circuloPrincipal)
+  		let principalCircleStyle= window.getComputedStyle(circuloPrincipal)
 		let currentLeft= principalCircleStyle.left.slice(0,-2)
 		let newLeft= parseInt(currentLeft) -8
 		newLeft= newLeft + 'px'
