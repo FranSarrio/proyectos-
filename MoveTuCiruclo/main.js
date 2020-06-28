@@ -1,11 +1,7 @@
 window.onload= function () {
 	
-	flechaIzquierda.onclick= function moveLeft () {
-  		let principalCircleStyle= window.getComputedStyle(circuloPrincipal)
-		let currentLeft= principalCircleStyle.left.slice(0,-2)
-		let newLeft= parseInt(currentLeft) -3
-		newLeft= newLeft + 'px'
-		circuloPrincipal.style.left= newLeft
+	flechaIzquierda.onclick= function () {
+		moveLeft ()
  	}
 
  	flechaDerecha.onclick= function () {
