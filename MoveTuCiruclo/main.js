@@ -26,7 +26,6 @@ window.onload= function () {
  	}
 
  	document.onkeydown= function (event) {
- 		console.log(event)
  		if (event.key=== 'ArrowRight') {
  			moveRight ()
  		}
