@@ -1,0 +1,148 @@
+body {
+	display: flex;
+	justify-content: center;
+	
+}
+.container {
+	position: absolute;
+	width: 100%;
+	height: 715px;
+
+}
+.controller {
+	display: flex;
+	position: absolute;
+	width: 360px;
+	height: 135px;
+	left:580px;
+	bottom: -40px;
+	border: 4px solid black;
+	border-radius: 20px;
+	background-color: #80808052;
+	
+}
+
+.principal-circle {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 220px;
+	left: 660px;
+
+
+}
+
+.side {
+	width: 135px;
+	height: 135px;
+	display: flex;
+
+	
+}
+
+.center-side {
+	width: 90px;
+	height: 135px;
+	display: flex;
+}
+
+.controller-circle {
+	position: absolute;
+	width: 131px;
+	height: 131px;
+	border-radius: 100%;
+	border: 4px solid black;
+	display: flex;
+}
+.controller-circle .right {
+	right: 0px;
+	box-shadow: 2px;
+}
+
+.controller-circle .left {
+	left: 0px;
+}
+
+.row {
+	width: 55.5px;
+	height: 15px;
+	border:2px solid black;
+	position:absolute;
+	background-color: #151617b5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.left-row {
+	top: 60px;
+	left:0px;
+	
+}
+.right-row {
+	top: 60px;
+	right:225px;
+	
+}
+.up-row {
+	top: 21px;
+	right: 263px;
+	transform: rotate(90deg);
+	
+}
+.bottom-row {
+	top: 97px;
+	left:37.5px;
+	transform: rotate(270deg);
+	
+}
+.little-circle {
+	width:30px;
+	height:30px;
+	border-radius: 100%;
+	border: 1.5px solid black;
+	position: absolute;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.red {
+	background-color: red;
+	top: 46px;
+	right: 94px;
+
+}
+.green {
+	background-color: green;
+	top: 10px;
+	right: 51px;
+
+}
+.blue {
+	background-color: blue;
+	top: 46px;
+	right: 10px;
+
+}
+
+button {
+	width: 70px;
+	height: 21px;
+	position: absolute;
+	border-radius: 6px;
+}
+
+.randomize {
+	top: 24px;
+    right: 141px;
+
+}
+
+.diagonal {
+	right: 141px;
+    top: 100px;
+
+}
